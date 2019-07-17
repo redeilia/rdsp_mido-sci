@@ -18,7 +18,7 @@ REPACK_DIR=$KERNEL_DIR/AnyKernel3
 OUT=$KERNEL_DIR/out
 VERSION="v1.0"
 export ARCH=arm64 && export SUBARCH=arm64
-export CROSS_COMPILE="gcc64/bin/aarch64-linux-android-"
+export CROSS_COMPILE="gccrdl/bin/aarch64-linux-android-"
 GDV=alif/gdv
 
 #Setup GDrive ideantity
